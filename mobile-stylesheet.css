@@ -1,0 +1,262 @@
+@media only screen and (max-width: 780px) {
+    .mobileDisapear {
+        display: none;
+    }
+    header {
+        height: 20vh;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    #logo-img {
+        width: 30%;
+        height: 75%;
+        position: relative;
+        margin: auto;
+        display: block;
+        left: 0%;
+    }
+
+    .mobileIcon {
+        display: block;
+    }
+
+    #mobileHide {
+        display: none;
+    }
+
+    .mobileNavIcon {
+        position: relative;
+        width: 10%;
+        height: 20%;
+
+        float: right;
+        right: 5%;
+    }
+
+    nav {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 80vh;
+        border-bottom: 2px solid white;
+        transition: height 5s;
+        margin: auto;
+        top: 5vh;
+        float: none;
+        right: 0%;
+        z-index: 10;
+        background-color: rgb(50, 49, 49, 0.9);
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    nav ul {
+        padding-left: 0px;
+        padding-top: 5%;
+        width: 80%;
+        margin: auto;
+    }
+
+    nav li {
+        display: block;
+        padding: 1%;
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .cart {
+        padding-left: 0%;
+        padding-top: 2%;
+        font-size: 1.2em;
+    }
+
+    .bottom-Banner {
+        height: 100%;
+        width: 100%;
+        top: 2.5vh;
+        margin-bottom: 10%;
+    }
+
+    .left-banner,
+    .right-banner {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-top: 5%;
+    }
+
+    .bottom-text {
+        width: 80%;
+    }
+
+    .bottom-text h2 {
+        font-size: 1.5em;
+    }
+
+    .bottom-text a {
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .fotterContent {
+        opacity: 1;
+        width: 90%;
+        height: 100%;
+    }
+
+    footer {
+        background-size: 0 0;
+        box-shadow: none;
+    }
+
+    .footer-left-content {
+        float: none;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        border: 2px solid #323131;
+        background-color: #323131;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .footer-left-content h2 {
+        padding-left: 0%;
+        font-size: 1.8em;
+    }
+
+    .footer-left-content ul {
+        font-size: 1.1em;
+    }
+
+    .push-right {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-left-content ul {
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+        right: 0%;
+        padding-left: 0px;
+    }
+
+    .footer-left-content li {
+        padding-top: 2%;
+    }
+
+    .footer-right-content {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        float: none;
+        text-align: center;
+        border: 2px solid #323131;
+        background-color: #323131;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .footer-right-content h3 {
+        font-size: 1.4em;
+        padding: 1%;
+        margin: 0;
+        padding-top: 2%;
+    }
+
+    .footer-right-content h2 {
+        font-size: 1.8em;
+
+    }
+
+    .footer-owner {
+        font-size: 1.1em;
+        bottom: 75%;
+        padding-bottom: 4%;
+        background-color: blue;
+        width: 90%;
+        margin: auto;
+        border: 2px solid #323131;
+        background-color: #323131;
+    }
+
+    .curvedOwner {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .center {
+        width: 50%;
+        height: 60%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+
+    }
+
+    .footer-logo {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    .normalFooter {
+        display: none;
+    }
+
+    .mobileFooter {
+        display: block;
+    }
+
+    .about-Title {
+        display: block;
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-Yarn {
+        display: block;
+        width: 80%;
+
+    }
+
+    .about-IMG {
+        position: relative;
+        width: 80%;
+        height: 80%;
+        padding-top: 5%;
+        margin: auto;
+        right: 0%;
+        float: none;
+        left: 10%;
+        right: 10%;
+    }
+
+    .about-history {
+        height: 40%;
+
+    }
+
+    .about-history-left {
+        width: 90%;
+        display: block;
+        float: none;
+        position: relative;
+        margin: auto;
+    }
+
+    .about-history-right {
+        width: 90%;
+        position: relative;
+        display: block;
+        float: none;
+        margin: auto;
+
+    }
+}

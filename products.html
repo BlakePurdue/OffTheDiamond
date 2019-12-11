@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off The Diamond</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="mobile-stylesheet.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="images/logo%20live%20v3.png">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/7fbb0e4dbe.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+
+    <header>
+        <img alt="main logo" id="logo-img" src="images/logo%20live%20v3.png">
+        <img alt="hambuger nav" class="mobileIcon mobileNavIcon" src="images/Hamburger.png">
+        <nav>
+            <ul>
+                <li><a href=" index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="cart.html" class="fas fa-shopping-cart cart"> </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-topBanner">
+            <h2>New season arriving soon!</h2>
+        </div>
+
+        <div class="product-leftBox">
+            <h2 class="product-leftBox-title">Products</h2>
+            <hr class="product-breakLine">
+            <ul style="list-style-type: none">
+                <li><a href="#clothingLink">Clothing</a></li>
+                <li><a href="#eqipmentLink">Equipment</a></li>
+                <li><a href="#accessorieLink">Accessories</a></li>
+            </ul>
+        </div>
+
+        <div class="product-main">
+            <ul>
+                <h3 id="clothingLink" class="productMain-title">Clothing</h3>
+                <hr class="product-titleUnderLine">
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/whiteLargeLogo.png">
+                    <h2 class="product-main-title">Classic White Logo Tshirt <br></h2>
+                    <h2 class="product-main-price">$22.00</h2>
+                    <button class="stock product-button" id="prdDrop" onclick="showProduct()">Add</button>
+
+                    <div id="prd-dropdown">
+                        
+                        <a class="product-closeDrp" onclick="showProduct()">x</a>
+                        <input class="product-input" id="cartNum" type="number" value="1">
+
+                        <button id="addPBtn" class="stock product-addDrp" onclick="addtoCart()">Add to Cart</button>
+                    </div>
+                </li>
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/greyLargeLogo.png">
+                    <h2 class="product-main-title">Casual Grey Logo Tshirt</h2>
+                    <h2 class="product-main-price">$22.00</h2>
+
+
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+
+                </li>
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/long.png">
+                    <h2 class="product-main-title">Long Playing Pants</h2>
+                    <h2 class="product-main-price">$15.00</h2>
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+                </li>
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/short.png">
+                    <h2 class="product-main-title">Short Playing Pants</h2>
+                    <h2 class="product-main-price">$15.00</h2>
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+                </li>
+                <h3 id="eqipmentLink" class="productMain-title">Equipment</h3>
+                <hr class="product-titleUnderLine">
+                
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/glove%201%20final.png">
+                    <h2 class="product-main-title">12 inch Infielder Glove</h2>
+                    <h2 class="product-main-price">$49.99</h2>
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+                </li>
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/glove%203%20final.png">
+                    <h2 class="product-main-title">12 inch Outfeilders Glove</h2>
+                    <h2 class="product-main-price">$49.99</h2>
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+                </li>
+                <h3 id="accessorieLink" class="productMain-title">Accessories</h3>
+                <hr class="product-titleUnderLine">
+                
+                <li data-aos="fade-up">
+                    <img alt="product img" class="product-main-img" src="images/products/widebattinggloves.png">
+                    <h2 class="product-main-title">Black/White Batting Gloves</h2>
+                    <h2 class="product-main-price">$10.00</h2>
+                    <button class="outStock product-button"><span class="outStSpan">Add</span></button>
+                </li>
+            </ul>
+
+        </div>
+
+    </main>
+    <footer style="background-image: url('images/tint-bottomfooterimg.jpg');">
+
+        <div class="fotterContent">
+            <div class="footer-left-content">
+                <div class="push-right">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-right-content">
+                <h2>Contact Us</h2>
+                <h3>027 297 511</h3>
+                <h3>sales@offthediamond.co.nz</h3>
+                <h3>132 Dugout Lane, Invercargill <br> 9812 New Zealand</h3>
+            </div>
+            <div class="center">
+                <img class="mobileFooter footer-logo" src="images/logo%20live%20v2.png" alt="footer-Logo">
+                <img class="normalFooter footer-logo" src="images/logo%20live%20v3.png" alt="footer-Logo">
+            </div>
+            <h3 class="footer-owner">Designed By Blake Purdue, 2019</h3>
+            <h3 class="footer-owner" style="font-style: italic">"Code it till it works"</h3>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
